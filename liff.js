@@ -16,13 +16,13 @@ window.onload = function (e) {
     // https://developers.line.me/ja/reference/liff/#liffopenwindow()
     document.getElementById('openwindowbutton').addEventListener('click', function () {
         liff.openWindow({
-            url: 'https://xn--jckte8ayb1f8923anjc.com/'
+            url: 'https://line.me'
         });
     });
 
     document.getElementById('openwindowexternalbutton').addEventListener('click', function () {
         liff.openWindow({
-            url: 'https://xn--jckte8ayb1f8923anjc.com/',
+            url: 'https://line.me',
             external: true
         });
     });
